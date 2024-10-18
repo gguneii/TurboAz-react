@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu.open {
+    transform: translateX(0);
+}
+.active-buttons .active {
+    background-color: #ca1016;
+    color: white;
+}
